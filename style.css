@@ -4,8 +4,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url(assets/back.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(219, 219, 220);
 }
 
 /* calculator styling here */
