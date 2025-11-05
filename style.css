@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(assets/back.avif);
+  background-color:black;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,9 +15,9 @@ body {
 .CALCULATOR {
   padding: 17px;
   width: 240px;
-  background:linear-gradient(white,black);
+  background:black;
   border-radius: 25px;
-  box-shadow: 0 5px 10px black;
+  box-shadow: 0 5px 30px white;
 }
 
 /* buttons styling is here */
@@ -29,13 +29,13 @@ body {
 
 /* equalsto button styling is here */
 .equals-to {
-  background: linear-gradient(gray,black);
+  background: orange;
   color: white;
   border-radius: 25px;
 }
 
 .equals-to:hover {
-  background: rgba(250, 240, 230, 0.288);
+  background: transparent;
   color: white;
 }
 
@@ -49,20 +49,20 @@ body {
   padding: 5px;
   border: none;
   color: white;
-  background:linear-gradient(gray,black);
+  background:black;
   border-radius: 15px;
 }
 
 .btn {
-  background:linear-gradient(gray,black);
+  background:orange;
   color: white;
-  border-radius: 15px;
-  font-weight: 900;
+  border-radius: 30px;
+  font-weight: 600
 
 }
 
 .btn:hover {
-  background: rgba(250, 240, 230, 0.288);
+  background: rgba(255, 255, 255, 0.267);
   color: white;
 }
 /* button styling is here */
@@ -72,9 +72,10 @@ button {
   font-size: 18px;
   border: none;
   border-radius: 5px;
-  color: black;
+  color: white;
   cursor: pointer;
   border-radius: 25px;
+  background: rgba(255, 255, 255, 0.096);
 }
 
 button:hover {
